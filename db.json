@@ -1,0 +1,5 @@
+{
+  "crmissue" : [
+    {"id": 0, "issueType": "bank_internal", "responsible": 0, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "High"}
+  ]
+}
