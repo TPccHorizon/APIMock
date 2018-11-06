@@ -9,10 +9,78 @@
     {"id": 6, "issueType": "bank_internal", "responsible": 7, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a Issue", "priority": "Low"},
     {"id": 7, "issueType": "bank_internal", "responsible": 8, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a Complaint", "priority": "High"}
   ],
-  "ctact" : [
-    {"id": 0, "type": "a contact", "name": "John Doe"},
-    {"id": 1, "type": "a person", "name": "Foo Bar"},
-    {"id": 2, "type": "a manager", "name": "John Smith"},
-    {"id": 3, "type": "a client", "name": "Alice Bob"}
+  "ctact2" : [
+    {
+      "id": 0,
+      "contactType": "a contact",
+      "clients" : [
+      {"id": 0},
+      {"id": 1},
+      {"id": 2}
+    ],
+      "contactArea": "Bank",
+      "subtype": "Contractor",
+      "subject": "Work",
+      "actions": [
+        {"topic": "Just a topic", "action": "An Action", "content" : "Just some simple content"},
+        {"topic": "Another topic", "action": "Another Action", "content" : "Just some more content"}
+      ],
+      "channel": "Phone",
+      "direction": "A Direction"
+    },
+    {
+      "id": 1,
+      "contactType": "Employee",
+      "clients" : [
+      {"id": 0},
+      {"id": 1},
+      {"id": 2}
+    ],
+      "contactArea": "Office",
+      "subtype": "Employee",
+      "subject": "Business",
+      "actions": [
+        {"topic": "Just a topic", "action": "An Action", "content" : "Just some simple content"},
+        {"topic": "Another topic", "action": "Another Action", "content" : "Just some more content"}
+      ],
+      "channel": "Fax",
+      "direction": "A Direction"
+    },
+    {
+      "id": 2,
+      "contactType": "Boss",
+      "clients" : [
+      {"id": 0},
+      {"id": 1},
+      {"id": 2}
+    ],
+      "contactArea": "Company",
+      "subtype": "Supervisor",
+      "subject": "Work",
+      "actions": [
+        {"topic": "Just a topic", "action": "An Action", "content" : "Just some simple content"},
+        {"topic": "Another topic", "action": "Another Action", "content" : "Just some more content"}
+      ],
+      "channel": "Personal",
+      "direction": "A Direction"
+    },
+    {
+      "id": 3,
+      "contactType": "Supplier",
+      "clients" : [
+      {"id": 0},
+      {"id": 1},
+      {"id": 2}
+    ],
+      "contactArea": "Buy Center",
+      "subtype": "Supplier",
+      "subject": "Delivery",
+      "actions": [
+        {"topic": "Just a topic", "action": "An Action", "content" : "Just some simple content"},
+        {"topic": "Another topic", "action": "Another Action", "content" : "Just some more content"}
+      ],
+      "channel": "E-Mail",
+      "direction": "A Direction"
+    }
   ]
 }
