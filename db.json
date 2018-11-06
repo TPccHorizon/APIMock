@@ -14,9 +14,9 @@
       "id": 0,
       "contactType": "a contact",
       "clients" : [
-      {"id": 0},
-      {"id": 1},
-      {"id": 2}
+        0,
+        1,
+        2
     ],
       "contactArea": "Bank",
       "subtype": "Contractor",
@@ -32,9 +32,9 @@
       "id": 1,
       "contactType": "Employee",
       "clients" : [
-      {"id": 0},
-      {"id": 1},
-      {"id": 2}
+        0,
+        1,
+        2
     ],
       "contactArea": "Office",
       "subtype": "Employee",
@@ -50,9 +50,9 @@
       "id": 2,
       "contactType": "Boss",
       "clients" : [
-      {"id": 0},
-      {"id": 1},
-      {"id": 2}
+        0,
+        1,
+        2
     ],
       "contactArea": "Company",
       "subtype": "Supervisor",
@@ -68,9 +68,9 @@
       "id": 3,
       "contactType": "Supplier",
       "clients" : [
-      {"id": 0},
-      {"id": 1},
-      {"id": 2}
+        0,
+        1,
+        2
     ],
       "contactArea": "Buy Center",
       "subtype": "Supplier",
