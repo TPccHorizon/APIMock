@@ -8,5 +8,11 @@
     {"id": 5, "issueType": "bank_internal", "responsible": 4, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a CRM Example", "priority": "High"},
     {"id": 6, "issueType": "bank_internal", "responsible": 7, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a Issue", "priority": "Low"},
     {"id": 7, "issueType": "bank_internal", "responsible": 8, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a Complaint", "priority": "High"}
+  ],
+  "ctact" : [
+    {"id": 0, "type": "a contact", "name": "John Doe"},
+    {"id": 1, "type": "a person", "name": "Foo Bar"},
+    {"id": 2, "type": "a manager", "name": "John Smith"},
+    {"id": 3, "type": "a client", "name": "Alice Bob"}
   ]
 }
