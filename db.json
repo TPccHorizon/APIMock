@@ -41,7 +41,8 @@
       "subject": "Business",
       "actions": [
         {"topic": "This is topic 1", "action": "An Action", "content" : "Just some simple content"},
-        {"topic": "This is also topic 1", "action": "Another Action", "content" : "Just some more content"}
+        {"topic": "This is also topic 1", "action": "Another Action", "content" : "Just some more content"},
+        {"topic": "This is another topic 1", "action": "Another Action", "content" : "Just some more content"}
       ],
       "channel": "Fax",
       "direction": "A Direction"
@@ -59,7 +60,9 @@
       "subject": "Work",
       "actions": [
         {"topic": "This is topic 2", "action": "An Action", "content" : "Just some simple content"},
-        {"topic": "This is also topic 2", "action": "Another Action", "content" : "Just some more content"}
+        {"topic": "This is also topic 2", "action": "Another Action", "content" : "Just some more content"},
+        {"topic": "This is also topic 2", "action": "Another Action", "content" : "Just some more content"},
+        {"topic": "Some more topic 2", "action": "Another Action", "content" : "Just some more content"}
       ],
       "channel": "Personal",
       "direction": "A Direction"
