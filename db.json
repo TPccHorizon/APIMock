@@ -85,5 +85,11 @@
       "channel": "E-Mail",
       "direction": "A Direction"
     }
+  ],
+  "whoami": [
+    {"id": 0, "userName": "Carlos Schweizer"},
+    {"id": 1, "userName": "Steven Van Damme"},
+    {"id": 2, "userName": "Florian Schrag"},
+    {"id": 3, "userName": "Roman Marti"}
   ]
 }
