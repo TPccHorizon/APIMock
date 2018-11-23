@@ -1,24 +1,24 @@
 {
   "crmissue" : [
-    {"id": 0, "issueType": "bank_internal", "responsible": 0, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "Low"},
-    {"id": 1, "issueType": "bank_internal", "responsible": 2, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a Mocked Issue", "priority": "Low"},
-    {"id": 2, "issueType": "bank_internal", "responsible": 5, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "Its from AWS", "priority": "High"},
-    {"id": 3, "issueType": "bank_internal", "responsible": 10, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "High"},
-    {"id": 4, "issueType": "bank_internal", "responsible": 4, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a mocked Issue", "priority": "Low"},
-    {"id": 5, "issueType": "bank_internal", "responsible": 4, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a CRM Example", "priority": "High"},
-    {"id": 6, "issueType": "bank_internal", "responsible": 7, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a Issue", "priority": "Low"},
-    {"id": 7, "issueType": "bank_internal", "responsible": 8, "dueDate": "21-12-2018", "obligation": "Bla", "subject": "CRM Issue", "description": "This is a Complaint", "priority": "High"}
+    {"id": 0, "issueType": "rm$service_custr_meeting", "responsible": 0, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "rm$prio_3"},
+    {"id": 1, "issueType": "rm$compli_aml", "responsible": 2, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a Mocked Issue", "priority": "rm$prio_3"},
+    {"id": 2, "issueType": "rm$service_custr_meeting", "responsible": 5, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "Its from AWS", "priority": "rm$prio_1"},
+    {"id": 3, "issueType": "rm$compli_aml", "responsible": 10, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "rm$prio_1"},
+    {"id": 4, "issueType": "rm$service_custr_meeting", "responsible": 4, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a mocked Issue", "priority": "rm$prio_3"},
+    {"id": 5, "issueType": "rm$service_custr_meeting", "responsible": 4, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Example", "priority": "rm$prio_1"},
+    {"id": 6, "issueType": "rm$compli_aml", "responsible": 7, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "This is a Issue", "priority": "rm$prio_2"},
+    {"id": 7, "issueType": "rm$compli_aml", "responsible": 8, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "This is a Complaint", "priority": "rm$prio_2"}
   ],
   "ctact2" : [
     {
       "id": 0,
-      "contactType": "a contact",
+      "contactType": "rm$compli_aml",
       "clients" : [
         0,
         1,
         2
     ],
-      "contactArea": "Bank",
+      "contactArea": "rm$compli",
       "subtype": "Contractor",
       "subject": "Work",
       "actions": [
@@ -30,13 +30,13 @@
     },
     {
       "id": 1,
-      "contactType": "Employee",
+      "contactType": "rm$compli_023",
       "clients" : [
         0,
         1,
         2
     ],
-      "contactArea": "Office",
+      "contactArea": "rm$conslt",
       "subtype": "Employee",
       "subject": "Business",
       "actions": [
@@ -49,13 +49,13 @@
     },
     {
       "id": 2,
-      "contactType": "Boss",
+      "contactType": "rm$conslt_campgn",
       "clients" : [
         0,
         1,
         2
     ],
-      "contactArea": "Company",
+      "contactArea": "rm$compli",
       "subtype": "Supervisor",
       "subject": "Work",
       "actions": [
@@ -69,13 +69,13 @@
     },
     {
       "id": 3,
-      "contactType": "Supplier",
+      "contactType": "rm$conslt_custr_care",
       "clients" : [
         0,
         1,
         2
     ],
-      "contactArea": "Buy Center",
+      "contactArea": "rm$conslt",
       "subtype": "Supplier",
       "subject": "Delivery",
       "actions": [
@@ -90,7 +90,7 @@
     {"id": 0, "userName": "Carlos Schweizer", "email": "example@mail.com"},
     {"id": 1, "userName": "Steven Van Damme", "email": "example@mail.com"},
     {"id": 2, "userName": "Florian Schrag", "email": "example@mail.com"},
-    {"id": 3, "userName": "Roman Marti", "email": "example@mail.com"},
+    {"id": 3, "userName": "Roman Mani", "email": "example@mail.com"},
     {"id": 4, "userName": "Leopold Gutierrez", "email": "example@mail.com"},
     {"id": 5, "userName": "Hashim Whitfield", "email": "example@mail.com"},
     {"id": 6, "userName": "Dillon Samuels", "email": "example@mail.com"},
