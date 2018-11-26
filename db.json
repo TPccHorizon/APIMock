@@ -12,7 +12,7 @@
   "ctact2" : [
     {
       "id": 0,
-      "contactType": "rm$compli_aml",
+      "contactType": "rm$compli_023",
       "clients" : [
         0,
         1,
@@ -30,7 +30,7 @@
     },
     {
       "id": 1,
-      "contactType": "rm$compli_023",
+      "contactType": "rm$conslt_campgn",
       "clients" : [
         0,
         1,
@@ -49,7 +49,7 @@
     },
     {
       "id": 2,
-      "contactType": "rm$conslt_campgn",
+      "contactType": "rm$compli_aml",
       "clients" : [
         0,
         1,
