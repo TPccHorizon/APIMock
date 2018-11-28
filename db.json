@@ -86,6 +86,15 @@
       "direction": "A Direction"
     }
   ],
+  "credappl": [
+    {"id": 0, "financingPurpose": "Mortgage", "limitAmount": "1000000", "bpKey": "a BP Key", "user": "Carlos Schweizer", "status": "Done"},
+    {"id": 1, "financingPurpose": "Money", "limitAmount": "100000", "bpKey": "a BP Key", "user": "Steven Van Damm", "status": "Hold"},
+    {"id": 2, "financingPurpose": "Cash", "limitAmount": "500000", "bpKey": "a BP Key", "user": "Hashim Whitfield", "status": "Discarded"},
+    {"id": 3, "financingPurpose": "Mortgage", "limitAmount": "100000", "bpKey": "a BP Key", "user": "Roman Mani", "status": "Done"},
+    {"id": 4, "financingPurpose": "Founding", "limitAmount": "130000", "bpKey": "a BP Key", "user": "Florian Schrag", "status": "Hold"},
+    {"id": 5, "financingPurpose": "Consume", "limitAmount": "10500000", "bpKey": "a BP Key", "user": "Aden James", "status": "Discarded"},
+    {"id": 6, "financingPurpose": "Student Loan", "limitAmount": "3000000", "bpKey": "a BP Key", "user": "Cody Buxton", "status": "Hold"}
+  ],
   "whoami": [
     {"id": 0, "userName": "Carlos Schweizer", "email": "example@mail.com"},
     {"id": 1, "userName": "Steven Van Damme", "email": "example@mail.com"},
