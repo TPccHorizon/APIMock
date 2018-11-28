@@ -26,7 +26,7 @@
         {"topic": "This is also topic 0", "action": "Another Action", "content" : "Just some more content"}
       ],
       "channel": "Phone",
-      "direction": "A Direction"
+      "direction": "A Direction", "user": "Roman Mani", "status": "Hold"
     },
     {
       "id": 1,
