@@ -1,13 +1,13 @@
 {
   "crmissue" : [
-    {"id": 0, "issueType": "rm$service_custr_meeting", "responsible": 0, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "rm$prio_3"},
-    {"id": 1, "issueType": "rm$compli_aml", "responsible": 2, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a Mocked Issue", "priority": "rm$prio_3"},
-    {"id": 2, "issueType": "rm$service_custr_meeting", "responsible": 5, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "Its from AWS", "priority": "rm$prio_1"},
-    {"id": 3, "issueType": "rm$compli_aml", "responsible": 10, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "rm$prio_1"},
-    {"id": 4, "issueType": "rm$service_custr_meeting", "responsible": 4, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a mocked Issue", "priority": "rm$prio_3"},
-    {"id": 5, "issueType": "rm$service_custr_meeting", "responsible": 4, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Example", "priority": "rm$prio_1"},
-    {"id": 6, "issueType": "rm$compli_aml", "responsible": 7, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "This is a Issue", "priority": "rm$prio_2"},
-    {"id": 7, "issueType": "rm$compli_aml", "responsible": 8, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "This is a Complaint", "priority": "rm$prio_2"}
+    {"id": 0, "issueType": "rm$service_custr_meeting", "responsible": 0, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "rm$prio_3", "user": "Carlos Schweizer", "status": "Done"},
+    {"id": 1, "issueType": "rm$compli_aml", "responsible": 2, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a Mocked Issue", "priority": "rm$prio_3", "user": "Roman Mani", "status": "Hold"},
+    {"id": 2, "issueType": "rm$service_custr_meeting", "responsible": 5, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "Its from AWS", "priority": "rm$prio_1", "user": "Florian Schrag", "status": "Discarded"},
+    {"id": 3, "issueType": "rm$compli_aml", "responsible": 10, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Issue", "priority": "rm$prio_1", "user": "Steven van Damme", "status": "Done"},
+    {"id": 4, "issueType": "rm$service_custr_meeting", "responsible": 4, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a mocked Issue", "priority": "rm$prio_3", "user": "Carlos Schweizer", "status": "Hold"},
+    {"id": 5, "issueType": "rm$service_custr_meeting", "responsible": 4, "dueDate": "21-12-2018", "obligation": "rm$should", "subject": "CRM Issue", "description": "This is a CRM Example", "priority": "rm$prio_1", "user": "Roman Mani", "status": "Discarded"},
+    {"id": 6, "issueType": "rm$compli_aml", "responsible": 7, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "This is a Issue", "priority": "rm$prio_2", "user": "Steven van Damme", "status": "Hold"},
+    {"id": 7, "issueType": "rm$compli_aml", "responsible": 8, "dueDate": "21-12-2018", "obligation": "rm$must", "subject": "CRM Issue", "description": "This is a Complaint", "priority": "rm$prio_2", "user": "Florian Schrag", "status": "Hold"}
   ],
   "ctact2" : [
     {
@@ -45,7 +45,7 @@
         {"topic": "This is another topic 1", "action": "Another Action", "content" : "Just some more content"}
       ],
       "channel": "Fax",
-      "direction": "A Direction"
+      "direction": "A Direction", "user": "Carlos Schweizer", "status": "Done"
     },
     {
       "id": 2,
@@ -65,7 +65,7 @@
         {"topic": "Some more topic 2", "action": "Another Action", "content" : "Just some more content"}
       ],
       "channel": "Personal",
-      "direction": "A Direction"
+      "direction": "A Direction", "user": "Florian Schrag", "status": "Discarded"
     },
     {
       "id": 3,
@@ -83,7 +83,7 @@
         {"topic": "This is also topic 3", "action": "Another Action", "content" : "Just some more content"}
       ],
       "channel": "E-Mail",
-      "direction": "A Direction"
+      "direction": "A Direction", "user": "Steven van Damme", "status": "Hold"
     }
   ],
   "credappl": [
