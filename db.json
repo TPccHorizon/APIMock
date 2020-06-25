@@ -5,5 +5,58 @@
     },
     "language": "en",
     "theme": "default"
-  }
+  },
+  "finance-data": [
+    {
+      "year": 2020,
+      "category": "Income",
+      "name": "Lohn",
+      "jan": 5200,
+      "feb": 5200,
+      "mar": 5200,
+      "apr": 5200,
+      "may": 5200,
+      "jun": 5200,
+      "jul": 5200,
+      "aug": 5200,
+      "sep": 5200,
+      "oct": 5200,
+      "nov": 5200,
+      "dec": 5200
+    },
+    {
+      "year": 2020,
+      "category": "Dividends",
+      "name": "Dividenden X AG",
+      "jan": 0,
+      "feb": 0,
+      "mar": 0,
+      "apr": 0,
+      "may": 0,
+      "jun": 0,
+      "jul": 0,
+      "aug": 0,
+      "sep": 0,
+      "oct": 0,
+      "nov": 0,
+      "dec": 123
+    },
+    {
+      "year": 2020,
+      "category": "Cost",
+      "name": "Miete",
+      "jan": 1630,
+      "feb": 1630,
+      "mar": 1630,
+      "apr": 1630,
+      "may": 1630,
+      "jun": 1630,
+      "jul": 1630,
+      "aug": 1630,
+      "sep": 1630,
+      "oct": 1630,
+      "nov": 1630,
+      "dec": 1630
+    }
+  ]
 }
