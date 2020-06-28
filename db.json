@@ -4,7 +4,8 @@
       "mail": "some.mail@mail.com"
     },
     "language": "en",
-    "theme": "default"
+    "theme": "default",
+    "currency": "CHF"
   },
   "finance-data": {
     "year": 2020,
