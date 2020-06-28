@@ -9,6 +9,7 @@
   },
   "finance-data": {
     "year": 2020,
+    "currency": "CHF",
     "data": [
       {
         "category": "Income",
